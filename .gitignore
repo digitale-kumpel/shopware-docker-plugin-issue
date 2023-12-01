@@ -7,6 +7,7 @@
 .env.*.local
 custom/*
 !custom/plugins/.gitkeep
+!custom/plugins/
 !custom/static-plugins/
 /public/fonts/*
 !/public/fonts/.gitkeep
