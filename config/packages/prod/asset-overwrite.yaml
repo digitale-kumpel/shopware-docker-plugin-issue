@@ -1,0 +1,10 @@
+services:
+  Shopware\Core\Framework\Plugin\Util\AssetService:
+    arguments:
+      - "@shopware.filesystem.asset"
+      - "@shopware.filesystem.temp"
+      - "@kernel"
+      - '@Shopware\Core\Framework\Plugin\KernelPluginLoader\KernelPluginLoader'
+      - '@Shopware\Core\Framework\Adapter\Cache\CacheInvalidator'
+      - '@Shopware\Core\Framework\App\Lifecycle\AppLoader'
+      - "@parameter_bag"
